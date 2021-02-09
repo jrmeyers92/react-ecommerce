@@ -2,6 +2,7 @@
 	display: flex;
 	height: 15vh;
 	align-items: center;
+	box-shadow: rgba(0, 0, 0, 0.54) 0px 0px 0px 3px;
 }
 
 .nav__logo {
@@ -19,10 +20,29 @@
 	flex-grow: 1;
 }
 
-.fas {
-	padding: 0.5rem;
-	margin: 1rem;
-	cursor: pointer;
+.nav__top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav__top_list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+}
+
+.nav__top_item {
+	margin: 0.5rem 1rem;
+}
+
+.cart {
+	margin-left: 0.3rem;
+}
+
+.phoneNumber {
+	margin-top: 0.5rem;
 }
 
 .nav__list {
