@@ -59,4 +59,5 @@
 	padding: 0.5rem;
 	margin: 1rem;
 	text-transform: uppercase;
+	transition: all 0.4s;
 }
