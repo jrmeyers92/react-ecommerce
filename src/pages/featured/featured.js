@@ -14,6 +14,36 @@ const featured = () => {
 					price='$699.99'
 					pic={FactionPic}
 				/>
+				<FeaturedCard
+					brand='Faction'
+					model='Prodigy 2021'
+					price='$699.99'
+					pic={FactionPic}
+				/>
+				<FeaturedCard
+					brand='Faction'
+					model='Prodigy 2021'
+					price='$699.99'
+					pic={FactionPic}
+				/>
+				<FeaturedCard
+					brand='Faction'
+					model='Prodigy 2021'
+					price='$699.99'
+					pic={FactionPic}
+				/>
+				<FeaturedCard
+					brand='Faction'
+					model='Prodigy 2021'
+					price='$699.99'
+					pic={FactionPic}
+				/>
+				<FeaturedCard
+					brand='Faction'
+					model='Prodigy 2021'
+					price='$699.99'
+					pic={FactionPic}
+				/>
 			</div>
 		</div>
 	);

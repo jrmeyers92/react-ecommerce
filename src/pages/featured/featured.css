@@ -4,3 +4,13 @@
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
+
+.featuredCards {
+	display: flex;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5rem;
+	flex-wrap: wrap;
+}

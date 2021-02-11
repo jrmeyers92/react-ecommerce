@@ -4,10 +4,15 @@
 	justify-content: center;
 	align-items: center;
 	max-width: 25%;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	cursor: pointer;
+	margin-bottom: 4rem;
 }
 
 .featuredCard__image {
 	height: 200px;
+	margin-bottom: 1rem;
 }
 
 .featuredCard__text {
@@ -16,4 +21,25 @@
 	width: 100%;
 	display: flex;
 	flex-direction: column;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+.featuredCard__brand {
+	font-weight: bold;
+}
+
+.featuredCard__price {
+	font-weight: 100;
+}
+
+.featuredCard span {
+	padding: 0.1rem;
+}
+
+@media (max-width: 900px) {
+	.featuredCard {
+		max-width: 40%;
+	}
 }
