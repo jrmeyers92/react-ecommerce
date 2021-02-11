@@ -1,0 +1,19 @@
+.featuredCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 25%;
+}
+
+.featuredCard__image {
+	height: 200px;
+}
+
+.featuredCard__text {
+	color: white;
+	background-color: black;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
