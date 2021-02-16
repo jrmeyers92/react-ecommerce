@@ -12,7 +12,7 @@
 
 .featuredCard__image {
 	height: 200px;
-	margin-bottom: 1rem;
+	margin-bottom: 0.5rem;
 }
 
 .featuredCard__text {
@@ -36,10 +36,4 @@
 
 .featuredCard span {
 	padding: 0.1rem;
-}
-
-@media (max-width: 900px) {
-	.featuredCard {
-		max-width: 40%;
-	}
 }
